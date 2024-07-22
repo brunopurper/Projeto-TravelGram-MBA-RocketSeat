@@ -1,0 +1,13 @@
+main {
+  	padding-block: 32px;
+}
+.profile-pictures {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.profile-pictures img {
+  width: 286px;
+}

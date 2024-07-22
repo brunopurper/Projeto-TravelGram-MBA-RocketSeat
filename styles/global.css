@@ -13,15 +13,15 @@
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
 
-  --font-family: "Poppins, sans-serif";
-  --text-lg: "bold 32px/125% var(--font-family)";
-  --text-md: "14px/175% var(--font-family)";
-  --text-sm: "12px/170% var(--font-family)";
-  --text: "16px/150% var(--font-family)";
+  --font-family: "Poppins", sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
+  --text: 16px/150% var(--font-family);
 }
 
 body {
-  font: var(--text);
+  font-family: var(--font-family);
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
@@ -35,3 +35,24 @@ a:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.surface-color {
+  background-color: var(--surface-color);
+}
+
+footer {
+  display: flex;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+footer span:nth-child(1) {
+  margin-right: auto;
+}
+
